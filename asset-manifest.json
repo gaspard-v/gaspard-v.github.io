@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/gaspard-v/gaspard-v.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/gaspard-v/gaspard-v.github.io/static/js/main.219d8949.js",
+    "static/media/logo.svg": "/gaspard-v/gaspard-v.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/gaspard-v/gaspard-v.github.io/index.html",
+    "main.073c9b0a.css.map": "/gaspard-v/gaspard-v.github.io/static/css/main.073c9b0a.css.map",
+    "main.219d8949.js.map": "/gaspard-v/gaspard-v.github.io/static/js/main.219d8949.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.219d8949.js"
+  ]
+}
