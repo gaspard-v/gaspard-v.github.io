@@ -43,12 +43,19 @@ const config = {
 				use: [stylesHandler, 'css-loader', 'sass-loader'],
 			},
 			{
-				test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif|ico|jpeg)$/i,
-				loader: 'file-loader',
-				options: {
-					name: '[path]/[name].[ext]',
-					context: 'src',
+				test: /favicon.ico/i,
+				type: 'asset/resource',
+				generator: {
+					filename: '[name][ext][query]',
 				},
+			},
+			{
+				test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+				type: 'asset/resource',
+			},
+			{
+				test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
+				type: 'asset/inline',
 			},
 
 			// Add your rules for custom modules here
