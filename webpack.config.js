@@ -44,7 +44,11 @@ const config = {
 			},
 			{
 				test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif|ico|jpeg)$/i,
-				type: 'asset',
+				loader: 'file-loader',
+				options: {
+					name: '[path]/[name].[ext]',
+					context: 'src',
+				},
 			},
 
 			// Add your rules for custom modules here
